@@ -65,7 +65,7 @@ function Navbar(props) {
                 Signup
               </Link>
             </div>
-           
+             :
             <div>
               <div className="btn tex-white mx-2 fs-2"  style={{ marginBottom: "8px" }} onClick={loadCart}>
                 <BsCart3 />
