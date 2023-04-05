@@ -57,14 +57,14 @@ function Navbar(props) {
 
           </div>
           {(!localStorage.getItem("authtoken")) ?
-            <li>
+            <div>
               <Link className="btn bg-white text-success mx-1" to="/login ">
                 Login
               </Link>
               <Link className="btn bg-white text-success mx-1" to="/createuser ">
                 Signup
               </Link>
-            </li>
+            </div>
             :
             <div>
               <div className="btn tex-white mx-2 fs-2"  style={{ marginBottom: "8px" }} onClick={loadCart}>
